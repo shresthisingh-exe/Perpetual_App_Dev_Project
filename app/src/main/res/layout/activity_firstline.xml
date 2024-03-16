@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C0C0C"
+    tools:context=".firstline">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/firstline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Introduction:-"
+                android:textAllCaps="true"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/firstline1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"
+                android:text="Watches. For some, they are mere timekeeping instruments, but for me, they embody so much
+more. They symbolize a deep emotional connection, a timeless bond between human and
+machine. Today, I wish to explore this enchanting aspect of watches with you. Join me on this
+passionate journey as we delve into the history of brands, the significance of each model, and
+the intricate world of watchmaking calibers."
+                android:textSize="17dp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/firstline"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/firstline2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="The Emotional Connection :-"
+                android:textSize="19dp"
+                android:textColor="@color/white"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/firstline1"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:id="@+id/firstline3"
+                android:layout_marginTop="5dp"
+                android:text="There's something magical about strapping a watch on your wrist. It becomes more than just an
+accessory; it becomes an extension of yourself. Each timepiece carries its own unique story,
+reflecting moments and memories that become engraved in time. It's a silent witness to the
+highs and lows of our lives, a constant reminder of the precious moments that have passed and
+those that lie ahead."
+                android:textStyle="italic"
+                android:textSize="19dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/firstline2"
+                app:layout_constraintVertical_bias="0.0"/>
+
+            <TextView
+                android:id="@+id/firstline4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="The History of Brands :- "
+                android:textSize="19dp"
+                android:textStyle="bold|italic"
+                android:layout_marginTop="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/firstline3"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/firstline5"
+                android:text="Behind every watch is a remarkable brand, each with its own rich heritage and legacy. Take
+Rolex, for instance. Established in 1905, this iconic brand has become synonymous with luxury,
+precision, and status. The mere mention of its name evokes a sense of timeless elegance and
+grandeur. Learning about the history of these brands allows us to appreciate the craftsmanship
+and dedication that goes into creating each timepiece."
+                android:textSize="19dp"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                android:layout_marginTop="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/firstline4"
+                app:layout_constraintVertical_bias="0.0"/>
+
+            <TextView
+                android:id="@+id/firstline6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Significance of Each Model:- "
+                android:textSize="19dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/firstline5"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/firstline7"
+                android:text="Within the vast world of watches, every model holds its own significance. It could be the first
+watch you received as a gift, marking a milestone in your life. Or perhaps it's the watch you
+inherited from a loved one, preserving their memory with every tick. Each model carries with it a
+unique narrative that intertwines with our own personal stories, making it much more than a
+simple tool to track time."
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:textStyle="italic"
+                android:textSize="19dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/firstline6"
+                app:layout_constraintVertical_bias="0.0"/>
+
+            <TextView
+                android:id="@+id/firstline8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Intricate World of Calibers :-"
+                android:textSize="19dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/firstline7"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/firstline9"
+                android:text="Behind the captivating exteriors of watches lies the heart and soul of every timepiece—the
+caliber. Calibers are the intricate mechanisms that make a watch tick, showcasing the
+exceptional craftsmanship of watchmakers. Each caliber is meticulously designed and
+assembled, with countless hours invested to ensure its precision and accuracy. Understanding
+the nuances of calibers allows us to appreciate the complexity and artistry that goes into their
+creation."
+                android:textStyle="italic"
+                android:layout_marginTop="5dp"
+                android:textSize="19dp"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/firstline8"
+                app:layout_constraintVertical_bias="0.0"/>
+
+            <TextView
+                android:id="@+id/firstline10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conclusion :- "
+                android:textSize="19dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/firstline9"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/firstline11"
+                android:text="In a world driven by speed and digital devices, it's easy to overlook the significance of watches.
+But for those of us who truly understand and embrace the emotional connection they offer,
+watches are so much more than just timekeepers. They are a source of inspiration, history, and
+the embodiment of our own personal journeys. So, next time you look down at your wrist, take a
+moment to cherish the watch that adorns it and the profound meaning it holds."
+                android:textSize="19dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/firstline10"
+                app:layout_constraintVertical_bias="0.0"/>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

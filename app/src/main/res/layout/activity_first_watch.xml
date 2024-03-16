@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".first_watch">
+
+    <TextView
+        android:id="@+id/firstline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduction:-"
+        android:textAllCaps="true"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/firstline1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:text="Brew Watches just announced a new limited version of its Metric Chronograph design, this time as a time-only watch with automatic mechanical movement – and for $525, it seems like a heck of a good value.
+Getting rid of the mechaquartz movement and going to a Seiko NH35A means you get a solid time-only, stainless-steel watch at 36mm (41.5mm tall) and 10.75mm thick. The Brew coffee bean logo is still at 12 o'clock and orange accents on the outside of the polished steel indices match the orange lollipop hand. To cap it all off you've got a nice creamy lume to accent what feels like a '70s-inspired vintage watch turned into a modern release.
+The watch is available now on the brand's website, and is limited to 500 pieces.
+"
+        android:textSize="17dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstline"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/firstline2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="What We Think:-"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstline1"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <TextView
+        android:id="@+id/firstline3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="I will be honest. It's halfway through the year and I'm starting to feel a bit of release fatigue. There are so many brands out there that release watch after watch throughout the year, but often it's just a different dial and not much else. For you classic music lovers, you'll get me when I say this feels like the early 1900s. Everything is Variations on a Theme. And yet, the new Metric Automatic goes to show how a brand like Brew benefits from a designer at the helm who can iterate without being redundant. "
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstline2"
+        app:layout_constraintVertical_bias="0.041" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

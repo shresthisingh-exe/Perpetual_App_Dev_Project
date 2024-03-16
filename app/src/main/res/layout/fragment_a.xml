@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#131313"
+    android:id="@+id/fragment_container"
+    tools:context=".AFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The True Essence of Watches: A
+Heart-Touching Journey Through Time"
+                android:layout_margin="11dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="11dp"
+                android:fontFamily="@font/lobster"
+                android:text="1. HODINKEE"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="match_parent"
+                android:layout_height="182dp"
+                android:src="@drawable/img" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. aBlogtoWatch"
+                android:layout_margin="11dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/lobster"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="match_parent"
+                android:layout_height="182dp"
+                android:src="@drawable/img_1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text4"
+                android:text="3. Man of Many – The Wind Up"
+                android:layout_margin="11dp"
+                android:textSize="25sp"
+                android:fontFamily="@font/lobster"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="match_parent"
+                android:layout_height="182dp"
+                android:src="@drawable/img_2" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Worn and Wound"
+                android:fontFamily="@font/lobster"
+                android:layout_margin="11dp"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+            <ImageView
+                android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:src="@drawable/img_3" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+</FrameLayout>

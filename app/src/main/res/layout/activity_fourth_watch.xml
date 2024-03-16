@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".fourth_watch">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:text="This is, by far, the most beautiful site on the list. Worn and Wound combine beautiful original photography, an easy to read tone and depth of watch knowledge to create a site you can’t help but enjoy. From the affordable to the extravagant. The collector to the newbie; and anyone in between. There is something you can most definitely enjoy."
+        android:textStyle="italic"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
